@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #101520;
+  color: grey;
+  height: 100vh;
+  overflow: scroll;
+}
+
+pre{
+  margin: 3em auto;
+  overflow-x: scroll;
+  border: solid white 1px;
+  text-align: left;
+  width:  90vw;
+  max-width: 800px;
+}
+
+.icon{
+  width:1em;
+  margin-right: 5px;
+}
+
+#open{
+  animation: 0.5s linear forwards close;
+  transform: rotate(180deg);
+}
+
+#close{
+  animation: 0.5s linear forwards open;
+}
+
+@keyframes open {
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes close {
+  100%{
+    transform: rotate(-0deg);
+  }
+}
+
+.virus-app {
+  animation: 2s linear infinite load-animation;
+}
+
+@keyframes load-animation {
+  0% {
+    transform: rotateZ(0deg);
+    transform-origin: center center;
+  }
+  70% {
+    transform: rotateZ(180deg);
+    transform-origin: center center;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    transform-origin: center center;
+  }
+}

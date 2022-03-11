@@ -1,0 +1,13 @@
+.MapContainer{
+    width: 80%;
+    max-width: 800px;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2em auto;
+}
+
+select{
+    background-color: lightslategrey;
+    border: solid #101520 5px;
+    border-radius: 10px;
+}
