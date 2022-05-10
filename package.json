@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://lucapotenza.github.io/Covid-Data/"
   "name": "covid-data",
   "version": "0.1.0",
   "private": true,
