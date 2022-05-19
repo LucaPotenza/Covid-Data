@@ -1,0 +1,8 @@
+declare const _default: {
+    features: {
+        N: string;
+        I: string;
+        C: number[][][][];
+    }[];
+};
+export default _default;
