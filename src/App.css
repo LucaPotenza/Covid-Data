@@ -3,7 +3,9 @@
   background-color: #101520;
   color: grey;
   height: 100vh;
-  overflow: scroll;
+  margin: 0px;
+  padding: 0px;
+  overflow-y: scroll;
 }
 
 pre{

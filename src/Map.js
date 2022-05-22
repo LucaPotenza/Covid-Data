@@ -41,7 +41,7 @@ function Map() {
                             Object.keys(data[0]).filter((x)=>{
                                 return(Number.isFinite(data[0][x]) && x!=='updated')
                             }).map((x,index)=>{
-                                return(<option key={index}>{spacing(x)}</option>)
+                                return(<option key={index} value={x}>{spacing(x)}</option>)
                             })
                         }
                     </select>

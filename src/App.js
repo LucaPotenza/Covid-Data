@@ -6,6 +6,7 @@ import Dashboard from "./Dashboard";
 import React, {createContext, useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import History from "./History";
+import Footer from "./Footer";
 
 
 export function LoaderWidget() {
@@ -50,7 +51,7 @@ function App() {
 
     let [{data,loading,error}] = useAxios('https://disease.sh/v3/covid-19/countries');
     if (loading) return <LoaderWidget/>
-    if (error) return <ErrorPanel message={error} />
+    if (error) return <ErrorPanel message={error}/>
 
   return (
     <div className="App">
@@ -59,6 +60,7 @@ function App() {
             <Map/>
             <Dashboard/>
             <History/>
+            <Footer/>
         </CountriesContext.Provider>
     </div>
   );

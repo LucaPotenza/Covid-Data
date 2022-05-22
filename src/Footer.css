@@ -1,0 +1,14 @@
+footer{
+    border-top: solid #121823 1px;
+    margin-top: 5em;
+    background-color: rgb(36, 42, 62);
+    color: grey;
+}
+
+.icon{
+    margin: 0em 1em 0.5em 1em;
+}
+
+.left{
+    padding-bottom: 5px;
+}
